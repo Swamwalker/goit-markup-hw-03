@@ -8,8 +8,9 @@
 Альтернативний колір тексту #FFFFFF;
 Альтернативний колір другорядного тексту rgba(255, 255, 255, 0.6)
 Фон футера #2F303A;
-
 */
+
+
 :root {
     --primery-text-colop:#212121;
     --secondary-text-color:#757575;
@@ -34,8 +35,23 @@ ul{
 a{
     text-decoration: none;
 }
+/*контейнер*/
+.conteiner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section,
+.team-section,
+.gallery{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 /*Заголовок*/
 
+/*Логотип*/
 .logo-akcent{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -45,12 +61,47 @@ a{
     color: var(--akcent-color)
 }
 .logo{
+    margin-right: 93px;
+    display: flex;
+
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--logo-text-color)}
+    
+/*Заголовок-Навігація*/
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;}
+
+.navigation,
+.contacts,
+.nav-menu{
+    display: flex;}
+.nav-menu{
+    align-items: center;
+}
+.contacts{
+    margin-left: auto;
+}
+.navigation .item:not(:last-child),
+.contacts .item:not(:last-child){
+    margin-right: 50px;
+}
+.navigation .link,
+.contacts .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .navigation .link {
     font-weight: 500;
     font-size: 14px;    
@@ -61,6 +112,17 @@ a{
 .navigation .link:focus,
 .navigation .link:hover{
     color: var(--akcent-color)
+}
+/*Заголовок-Контакти*/
+.contacts,
+.list,
+.card-list,
+.team,
+.fetures,
+.principles{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 .contacts .link{
     font-weight: 500;
@@ -81,18 +143,26 @@ a{
     text-align: center;
     color:var(--primery-text-colop);
 }
+/*Main index*/
+.title,
+.content{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /*Герой*/
 .hero{
+    text-align: center;
     background-color:var(--footer-bg)
 }
 .hero .title{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;  
     color:var(--background-color);
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 .hero-button{
     font-family:inherit;
