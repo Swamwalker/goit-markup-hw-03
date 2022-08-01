@@ -226,6 +226,7 @@ a {
 }
 .gallery{
     display: flex;
+    justify-content: center;
 }
 .gallery .item:not(:last-child){
     margin-right: 30px;
@@ -351,6 +352,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    align-content: center;
+    justify-content: center;
 }
 .card-head{
     padding-left: 24px;
