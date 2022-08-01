@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 .conteiner{
-    width: 1200px;
+    width: 1230px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -361,9 +361,10 @@ a {
 
 .card-list .item{
     border: 1px solid #EEEEEE;
-    width: 370px;
+    width: calc(100%-60px/3);
 }
 .card-list .photo{
+    display: block;
     margin-bottom: 20px;
 }
 
