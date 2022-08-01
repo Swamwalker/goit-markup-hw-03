@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" 
-        integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-<!--Заголовок-->
-<header>
-    <div class="conteiner header">
+    <!--Заголовок-->
+    <header>
+       <div class="header conteiner">
         <nav class="nav-menu">
             <a href="./index.html" lang="en" class="logo"><span class="logo-akcent">Web</span>Studio</a>
             <ul class="navigation">
@@ -30,16 +33,17 @@
             <li class="item"><a href="mailto:info@devstudio.com" class="link" lang="en"> info@devstudio.com</a></li>
             <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-    </div>
- </header>
+       </div>
+    </header>
     <main>
-<!--Герой-->
+        <!--Герой-->
         <section class="hero">
-            <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+            <h1 class="title">Ефективні рішення для<br> вашого бізнесу</h1>
             <button type="button" class="hero-button">Замовити послугу</button>
         </section>
         <!--Принципы-->
-        <section class="section conteiner">
+        <section class="section">
+            <div class="conteiner">
             <h2 class="visually-hidden">Наші принципи</h2>
             <ul class="principles">
                 <li class="list">
@@ -59,18 +63,24 @@
                     <p class="content">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Чем занимаемся-->
-        <section class="section conteiner">
+        <section class="section">
+            <div class="works conteiner">
             <h2 class="title">Чим ми займаємося</h2>
-            <ul class="fetures">
-               <li><img src="./imges/picone.jpg" alt="написання коду на планшеті" class="photo" width="370" height="294"></li>
-               <li><img src="./imges/pictwo.jpg" alt="робота на лептопі" class="photo" width="370" height="294"></li>
-               <li><img src="./imges/picthree.jpg" alt="підбір кольорів за палитрою" class="photo" width="370" height="294"></li>
+            <ul class="gallery">
+                <li class="item"><img src="./imges/picone.jpg" alt="написання коду на планшеті" class="photo" width="370"
+                        height="294"></li>
+                <li class="item"><img src="./imges/pictwo.jpg" alt="робота на лептопі" class="photo" width="370" height="294"></li>
+                <li class="item"><img src="./imges/picthree.jpg" alt="підбір кольорів за палитрою" class="photo" width="370"
+                        height="294"></li>
             </ul>
+            </div>
         </section>
         <!--Команда-->
-        <section class="team-section conteiner">
+        <section class="team-section">
+            <div class="command conteiner">
             <h2 class="title">Наша команда</h2>
             <ul class="team">
                 <li class="list">
@@ -94,18 +104,23 @@
                     <p lang="en" class="content">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!--Підвал-->
     <footer class="footer">
+        <div class="conteiner">
         <a href="./index.html" lang="en" class="logo"><span class="logo-akcent">Web</span>Studio</a>
         <address>
             <ul class="address">
-                <li ><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" class="first" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li ><a href="mailto:info@devstudio.com" class="second" lang="en">info@devstudio.com</a></li>
-                <li ><a href="tel:+380961111111" class="third">+38 096 111 11 11</a></li>
-            </ul> 
+                <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" class="first" target="_blank"
+                        rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com" class="second" lang="en">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="third">+38 096 111 11 11</a></li>
+            </ul>
         </address>
+        </div>
     </footer>
 </body>
+
 </html>
