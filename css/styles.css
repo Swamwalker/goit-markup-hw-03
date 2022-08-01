@@ -361,7 +361,7 @@ a {
 }
 
 .card-list .item{
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     width: calc(100%-60px/3);
 }
 .card-list .photo{
