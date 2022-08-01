@@ -19,7 +19,7 @@
 
 <body>
     <!--Заголовок-->
-    <header>
+    <header class="top">
         <div class="header conteiner">
             <nav class="nav-menu">
                 <a href="./index.html" lang="en" class="logo"><span class="logo-akcent">Web</span>Studio</a>
@@ -38,60 +38,78 @@
     <!--Портфоліо-->
     <main>
         <section class="portfolio">
-            <div class="conteiner">
+            <div class="grid conteiner">
             <h1 class="visually-hidden">Галерея робіт</h1>
             <ul class="list">
-                <li><button type="button" class="item">Все</button></li>
-                <li><button type="button" class="item">Веб-сайти</button></li>
-                <li><button type="button" class="item">Додатки</button></li>
-                <li><button type="button" class="item">Дизайн</button></li>
-                <li><button type="button" class="item">Маркетинг</button></li>
+                <li class="item"><button type="button" class="item">Все</button></li>
+                <li class="item"><button type="button" class="item">Веб-сайти</button></li>
+                <li class="item"><button type="button" class="item">Додатки</button></li>
+                <li class="item"><button type="button" class="item">Дизайн</button></li>
+                <li class="item"><button type="button" class="item">Маркетинг</button></li>
             </ul>
             <ul class="card-list">
-                <li><img src="./imges/laptop.jpg" alt="Лептоп" class="photo" width="370" height="294">
-                    <h2 class="title">Технокряк</h2>
-                    <p class="content">Веб-сайт</p>
+                <li class="item"><img src="./imges/laptop.jpg" alt="Лептоп" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Технокряк</h2>
+                        <p class="content">Веб-сайт</p>
+                    </div>
                 </li>
-                <li><img src="./imges/basketbolists.jpg" alt="Баскетболісти" class="photo" width="370" height="294">
-                    <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                    <p class="content">Дизайн</p>
+                <li class="item"><img src="./imges/basketbolists.jpg" alt="Баскетболісти" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                        <p class="content">Дизайн</p>
+                    </div>
                 </li>
-                <li><img src="./imges/brendlogo.jpg" alt="Логотип ресторану Seafood" class="photo" width="370"
+                <li class="item"><img src="./imges/brendlogo.jpg" alt="Логотип ресторану Seafood" class="photo" width="370"
                         height="294">
-                    <h2 class="title">Ресторан Seafood</h2>
-                    <p class="content">Додаток</p>
+                        <div class="card-head">
+                            <h2 class="title">Ресторан Seafood</h2>
+                            <p class="content">Додаток</p>
+                        </div>
                 </li>
-                <li><img src="./imges/headphones.jpg" alt="Навушники" class="photo" width="370" height="294">
-                    <h2 class="title">Проєкт Prime</h2>
-                    <p class="content">Маркетинг</p>
+                <li class="item"><img src="./imges/headphones.jpg" alt="Навушники" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Проєкт Prime</h2>
+                        <p class="content">Маркетинг</p>
+                    </div>
                 </li>
-                <li><img src="./imges/boxes.jpg" alt="Коробки" class="photo" width="370" height="294">
-                    <h2 class="title">Проєкт Boxes</h2>
-                    <p class="content">Додаток</p>
+                <li class="item"><img src="./imges/boxes.jpg" alt="Коробки" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Проєкт Boxes</h2>
+                        <p class="content">Додаток</p>
+                    </div>
                 </li>
-                <li><img src="./imges/monitor.jpg" alt="Монітор" class="photo" width="370" height="294">
-                    <h2 class="title">Inspiration has no Borders</h2>
-                    <p class="content">Веб-сайт</p>
+                <li class="item"><img src="./imges/monitor.jpg" alt="Монітор" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Inspiration has no Borders</h2>
+                        <p class="content">Веб-сайт</p>
+                    </div>
                 </li>
-                <li><img src="./imges/magazine.jpg" alt="Журнал" class="photo" width="370" height="294">
-                    <h2 class="title">Видання Limited Edition</h2>
-                    <p class="content">Дизайн</p>
+                <li class="item"><img src="./imges/magazine.jpg" alt="Журнал" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Видання Limited Edition</h2>
+                        <p class="content">Дизайн</p>
+                    </div>
                 </li>
-                <li><img src="./imges/tag.jpg" alt="Бірка лейблу" class="photo" width="370" height="294">
-                    <h2 class="title">Проект LAB</h2>
-                    <p class="content">Маркетинг</p>
+                <li class="item"><img src="./imges/tag.jpg" alt="Бірка лейблу" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Проект LAB</h2>
+                        <p class="content">Маркетинг</p>
+                    </div>
                 </li>
-                <li><img src="./imges/working.jpg" alt="Робота на ноутбуці" class="photo" width="370" height="294">
-                    <h2 class="title">Growing Business</h2>
-                    <p class="content">Додаток</p>
+                <li class="item"><img src="./imges/working.jpg" alt="Робота на ноутбуці" class="photo" width="370" height="294">
+                    <div class="card-head">
+                        <h2 class="title">Growing Business</h2>
+                        <p class="content">Додаток</p>
+                    </div>
                 </li>
             </ul>
             </div>
         </section>
     </main>
     <!--Підвал-->
-    <footer class="footer">
-        <div class="conteiner">
+<footer class="footer">
+    <div class="bottom conteiner">
         <a href="./index.html" lang="en" class="logo"><span class="logo-akcent">Web</span>Studio</a>
         <address>
             <ul class="address">
@@ -101,8 +119,8 @@
                 <li><a href="tel:+380961111111" class="third">+38 096 111 11 11</a></li>
             </ul>
         </address>
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
 
 </html>
