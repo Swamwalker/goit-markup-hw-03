@@ -238,6 +238,7 @@ a {
 }
 .team{
     display: flex;
+    justify-content: center;
 }
 .team-section {
     background-color: var(--secondary-background-color);
