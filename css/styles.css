@@ -154,7 +154,6 @@ a {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--background-color);
@@ -327,7 +326,6 @@ a {
 .portfolio .list .item {
 
     font-family: inherit;
-    font-style: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -364,7 +362,6 @@ a {
     width: calc(100%-60px/3);
 }
 .card-list .photo{
-    display: block;
     margin-bottom: 20px;
 }
 
