@@ -138,9 +138,11 @@ a {
 
 /*Герой*/
 .hero {
+    height: 600px;
     background-color: var(--footer-bg);
     text-align: center;
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero .title {
@@ -272,7 +274,10 @@ a {
 .footer {
     background-color: var(--footer-bg)
 }
-
+.bottom{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .footer .logo {
     color: var(--background-color);
     margin-bottom: 20px;
