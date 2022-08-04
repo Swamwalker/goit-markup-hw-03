@@ -48,19 +48,23 @@ a {
     text-decoration: none;
 }
 .conteiner{
-    width: 1230px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /*Заголовок*/
 .top{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .header{
     display: flex;
     align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .nav-menu{
     display: flex;
@@ -141,13 +145,14 @@ a {
 
 /*Герой*/
 .hero {
-    height: 600px;
     background-color: var(--footer-bg);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
-
+.hero-box{
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .hero .title {
     margin-bottom: 30px;
 
@@ -161,11 +166,12 @@ a {
 
 .hero-button {
     font-family: inherit;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
     border: 0em;
     border-radius: 4px;
     color: var(--background-color);
